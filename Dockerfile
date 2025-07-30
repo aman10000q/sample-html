@@ -1,5 +1,5 @@
 # Use Alpine as the base image
-FROM alpine:latest
+FROM alpine:latest 
 
 # Install bash (if needed)
 RUN apk update && apk add bash
